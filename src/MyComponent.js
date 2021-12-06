@@ -1,7 +1,7 @@
 function MyComponent() {
   return (
     <>
-      <h1>Iopmehd</h1>
+      <h1 className="title">Iopmehd</h1>
       <p>nfejkwfkwe</p>
     </>
   );
