@@ -1,15 +1,15 @@
-import MyNewComp from "./MyNewComp";
 import "./App.css";
-import MyComp from "./MyComp";
-import MyComponent from "./MyComponent";
+import Header from "./components/header";
+import AboutUs from "./components/AboutUs";
+import Gifts from "./components/Gifts";
 
 function App() {
   return (
-    <div className="app">
-      <MyComp />
-      <MyComponent />
-      <MyNewComp />
-    </div>
+    <>
+      <Header />
+      <AboutUs />
+      <Gifts />
+    </>
   );
 }
 
